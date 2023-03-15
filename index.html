@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-4,5</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Enquiry Form</legend>
+        * Name:
+        <input
+          type="text"
+          name="Name"
+          placeholder="Enter name"
+          autofocus
+          required
+        />
+        <br />
+        <br />
+        * Date of birth: <input type="date" name="D.O.B" required />
+        <br />
+        <br />
+        * Address: <textarea maxlength="100"></textarea>
+        <br />
+        <br />
+
+        <input id="male" type="radio" value="male" name="gender" />
+        <label for="male">Male</label>
+
+        <input id="female" type="radio" value="female" name="gender" />
+        <label for="female">Female</label>
+
+        <input id="other" type="radio" value="other" name="gender" />
+        <label for="other">Other</label>
+
+        <br />
+        <br />
+        * Select your state
+        <select>
+          <option>--select--</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Jharkhand">Jharkhand</option>
+          <option value="Banglore">Banglore</option>
+          <option value="Haryana">Haryana</option>
+          <option value="Maharastra">Maharastra</option>
+          <option value="Goa">Goa</option>
+        </select>
+        <br />
+        <br />
+        *Select your city
+        <select>
+          <option>--select--</option>
+          <option value="Bahadurgarh">Bahadurgarh</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Dadar">Dadar</option>
+          <option value="Ranchi">Ranchi</option>
+        </select>
+        <br />
+        <br />
+        * Select your hobbies:
+        <br />
+        Dancing
+        <input type="checkbox" />
+        <br />
+        Singing
+        <input type="checkbox" />
+        <br />
+        Writing
+        <input type="checkbox" />
+        <br />
+        Filming
+        <input type="checkbox" />
+        <br />
+        <br />
+        * Upload Resume Here:
+        <br />
+        <input type="file" />
+        <br />
+        <br />
+        <b>*Note</b>:Check your details before submit-->
+        <div><input type="submit" /></div>
+        <div style="float: right"><input type="reset" /></div>
+      </fieldset>
+    </form>
+  </body>
+</html>
